@@ -1,11 +1,12 @@
 * {
     margin: 0;
+    padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* header section */
 .bg-image {
-    background-image: url(./banner/banner1.png);
+    background-image: url(./banner/banner3.png);
     background-size: cover;
     height: 1000px;
     width: 100%;
@@ -22,7 +23,7 @@
 }
 
 .menu-description {
-    font-size: 17px;
+    font-size: 18px;
     color: #474747;
     margin-left: 100px;
     margin-top: 30px;
@@ -42,10 +43,15 @@
 /* failure previous year section */
 .bg-image-lecture {
     display: flex;
+    justify-content: center;
+    gap: 40px;
 }
 
 .img1 {
-    margin-left: 250px;
+    margin-left: 300px;
+
+    border-radius: 50px;
+
 }
 
 .content {
@@ -88,7 +94,8 @@
 }
 
 .title-icon {
-    text-align: justify;
+    text-align: center;
+
 }
 
 h3 {
@@ -101,26 +108,106 @@ h5 {
 }
 
 /* baground image part2 */
-.bg-image2 {
-    background-image: url(./watch.png);
-    height: 400px;
+.container {
+    background: linear-gradient(45deg, #d20019, #7462ffab, #f48e2152, #23d5ab);
+    height: 200px;
     background-repeat: no-repeat;
-    margin-left: 367px;
+    margin-left: 420px;
     margin-top: 100px;
+    background-size: 1024px;
+    border-radius: 10px;
 }
 
 .bg-title {
     color: #FFF;
     margin-left: 50px;
-    padding-top: 80px;
+    padding-top: 50px;
+    position: relative;
 }
-.btn-call{
+
+.btn-call {
     padding: 10px 15px;
     background-color: #FFFF;
     font-size: 14px;
-    color:orangered;
+    color: orangered;
     border: none;
     border-radius: 5px;
     margin-left: 50px;
     margin-top: 15px;
+}
+
+/* footer */
+.footer {
+    margin-top: 100px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.877);
+    height: 450px;
+    justify-content: center;
+    gap: 300px;
+}
+
+.footer-title {
+    color: white;
+    font-size: 36px;
+    margin-top: 100px;
+
+
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.507);
+    margin-top: 15px;
+
+}
+
+.email {
+    color: rgba(255, 255, 255, 0.507);
+    font-size: 12px;
+    margin-top: 20px;
+
+}
+
+.phone {
+    color: rgba(255, 255, 255, 0.507);
+    margin-top: 20px;
+}
+
+.footer-icon {
+    display: flex;
+    margin-top: 15px;
+    gap: 20px;
+}
+
+.subscribe {
+    margin-top: 100px;
+    font-size: 12px;
+    color: white;
+
+}
+
+.btn-subscribe {
+    margin-top: 12px;
+    padding: 10px 22px;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+input[type=email] {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 5px;
+    margin: 8px 0;
+    outline: none;
+    padding: 12px;
+    box-sizing: border-box;
+    transition: .3s;
+
+}
+
+input[type=email]:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+
 }
