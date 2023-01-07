@@ -72,10 +72,10 @@
 }
 
 .content ul li {
-   list-style-type: circle;
+    list-style-type: circle;
 }
 
-.content ul{
+.content ul {
     margin-top: 20px;
 }
 
@@ -108,110 +108,109 @@ h5 {
     color: #474747;
 }
 
- /* baground image part2 */ 
- .container {
+/* baground image part2 */
+.container {
     background: linear-gradient(45deg, #d20019, #7462ffab, #f48e2152, #23d5ab);
     height: 200px;
     background-repeat: no-repeat;
     margin-left: 420px;
     margin-top: 100px;
-    background-size: 1024px; 
-    border-radius: 10px;
- 
-   
+    background-size: 1024px;
+    border-radius: 8px;
 }
-
-.bg-title {
-    color: #FFF;
-    margin-left: 50px;
-    padding-top: 50px;
-    position: relative;
-}
-
-.btn-call {
-    padding: 10px 15px;
-    background-color: #FFFF;
-    font-size: 14px;
-    color: orangered;
-    border: none;
-    border-radius: 5px;
-    margin-left: 50px;
-    margin-top: 15px;
-} 
-
-
-/* footer */
-.footer {
-    margin-top: 100px;
-    display: flex;
-    background-color: rgba(0, 0, 0, 0.877);
-    height: 450px;
-    justify-content: center;
-    gap: 300px;
-}
-
-.footer-title {
-    color: white;
-    font-size: 36px;
-    margin-top: 100px;
-
+.bg-title{
+color: #FFF;
+margin-left: 50px;
+padding-top: 50px;
 
 }
 
-.footer-description {
-    color: rgba(255, 255, 255, 0.507);
-    margin-top: 15px;
+    .btn-call {
+        padding: 10px 15px;
+        background-color: #FFFF;
+        font-size: 14px;
+        color: orangered;
+        border: none;
+        border-radius: 5px;
+        margin-left: 50px;
+        margin-top: 15px;
+    }
 
-}
 
-.email {
-    color: rgba(255, 255, 255, 0.507);
-    font-size: 12px;
-    margin-top: 20px;
 
-}
 
-.phone {
-    color: rgba(255, 255, 255, 0.507);
-    margin-top: 20px;
-}
+    /* footer */
+    .footer {
+        margin-top: 100px;
+        display: flex;
+        background-color: rgba(0, 0, 0, 0.877);
+        height: 450px;
+        justify-content: center;
+        gap: 300px;
+    }
 
-.footer-icon {
-    display: flex;
-    margin-top: 15px;
-    gap: 20px;
-}
+    .footer-title {
+        color: white;
+        font-size: 36px;
+        margin-top: 100px;
 
-.subscribe {
-    margin-top: 100px;
-    font-size: 12px;
-    color: white;
 
-}
+    }
 
-.btn-subscribe {
-    margin-top: 12px;
-    padding: 10px 22px;
-    background-color: dodgerblue;
-    color: white;
-    border: none;
-    border-radius: 10px;
-}
+    .footer-description {
+        color: rgba(255, 255, 255, 0.507);
+        margin-top: 15px;
 
-input[type=email] {
-    width: 100%;
-    border: 2px solid #aaa;
-    border-radius: 5px;
-    margin: 8px 0;
-    outline: none;
-    padding: 12px;
-    box-sizing: border-box;
-    transition: .3s;
+    }
 
-}
+    .email {
+        color: rgba(255, 255, 255, 0.507);
+        font-size: 12px;
+        margin-top: 20px;
 
-input[type=email]:focus {
-    border-color: dodgerblue;
-    box-shadow: 0 0 8px 0 dodgerblue;
+    }
 
-}
+    .phone {
+        color: rgba(255, 255, 255, 0.507);
+        margin-top: 20px;
+    }
+
+    .footer-icon {
+        display: flex;
+        margin-top: 15px;
+        gap: 20px;
+    }
+
+    .subscribe {
+        margin-top: 100px;
+        font-size: 12px;
+        color: white;
+
+    }
+
+    .btn-subscribe {
+        margin-top: 12px;
+        padding: 10px 22px;
+        background-color: dodgerblue;
+        color: white;
+        border: none;
+        border-radius: 10px;
+    }
+
+    input[type=email] {
+        width: 100%;
+        border: 2px solid #aaa;
+        border-radius: 5px;
+        margin: 8px 0;
+        outline: none;
+        padding: 12px;
+        box-sizing: border-box;
+        transition: .3s;
+
+    }
+
+    input[type=email]:focus {
+        border-color: dodgerblue;
+        box-shadow: 0 0 8px 0 dodgerblue;
+
+    }
