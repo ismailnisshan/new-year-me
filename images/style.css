@@ -11,6 +11,7 @@
     height: 1000px;
     width: 100%;
     display: flex;
+    justify-content: right;
 
 
 }
@@ -18,14 +19,14 @@
 .menu-title {
     font-size: 50px;
     font-family: 700px;
-    margin-left: 100px;
+    margin-right: 30px;
     margin-top: 250px;
 }
 
 .menu-description {
     font-size: 18px;
     color: #474747;
-    margin-left: 100px;
+    margin-right: 30px;
     margin-top: 30px;
 }
 
@@ -37,7 +38,7 @@
     border: none;
     border-radius: 5px;
     margin-top: 30px;
-    margin-left: 100px;
+    margin-right: 30px;
 }
 
 /* failure previous year section */
