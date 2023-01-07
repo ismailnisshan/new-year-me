@@ -70,11 +70,11 @@
 
 }
 
-.content ol li {
-    list-style-type: circle;
+.content ul li {
+   list-style-type: circle;
 }
 
-.content ol {
+.content ul{
     margin-top: 20px;
 }
 
